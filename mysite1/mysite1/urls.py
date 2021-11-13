@@ -14,8 +14,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, re_path
+
+from mysite1 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # http://127.0.0.1:8000/birthday/year(4)/mon(2)/day(2)
+    re_path(r'^birthday/(?P<y>\d{4})/(?P<m>\d{1,2})/(?P<d>\d{1,2})$', views.birthday),
+    # http://127.0.0.1:8000/birthday/mon(2)/day(2)/year(4)
+    re_path(r'^birthday/(?P<m>\d{1,2})/(?P<d>\d{1,2})/(?P<y>\d{4})$', views.birthday),
+    # http://127.0.0.1:8000/page/1-100
+    path('page/<int:page>',views.page_n)
 ]
