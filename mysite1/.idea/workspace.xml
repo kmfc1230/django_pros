@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df09b466-9bad-43fa-a8e6-d8f209c8e9fd" name="Changes" comment="" />
+    <list default="true" id="df09b466-9bad-43fa-a8e6-d8f209c8e9fd" name="Changes" comment="  1">
+      <change afterPath="$PROJECT_DIR$/templates/mycal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test_html_param.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test_if_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test_static.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite1/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,8 +80,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636800397077</updated>
-      <workItem from="1636800398331" duration="1365000" />
+      <workItem from="1636800398331" duration="9939000" />
+      <workItem from="1636966483966" duration="997000" />
     </task>
+    <task id="LOCAL-00001" summary="  1">
+      <created>1636802208027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636802208027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +106,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="  1" />
+    <option name="LAST_COMMIT_MESSAGE" value="  1" />
   </component>
 </project>

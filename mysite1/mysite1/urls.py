@@ -20,10 +20,18 @@ from mysite1 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.index),
     # http://127.0.0.1:8000/birthday/year(4)/mon(2)/day(2)
     re_path(r'^birthday/(?P<y>\d{4})/(?P<m>\d{1,2})/(?P<d>\d{1,2})$', views.birthday),
     # http://127.0.0.1:8000/birthday/mon(2)/day(2)/year(4)
     re_path(r'^birthday/(?P<m>\d{1,2})/(?P<d>\d{1,2})/(?P<y>\d{4})$', views.birthday),
     # http://127.0.0.1:8000/page/1-100
-    path('page/<int:page>',views.page_n)
+    path('page/<int:page>', views.page_n),
+    # templates
+    path('test_html/', views.test_html),
+    path('test_html_param', views.test_html_param),
+    path('test_if_for', views.test_if_for),
+    path('mycal', views.test_mycal),
+
+    path('test_static', views.test_static),
 ]
