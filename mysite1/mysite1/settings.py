@@ -35,6 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'music',
+    'news',
+    'sport',
+    'bookstore',
 ]
 
 MIDDLEWARE = [
@@ -74,8 +78,14 @@ WSGI_APPLICATION = 'mysite1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mysite',
+        'HOST': '192.168.16.168',
+        'PORT': 3306,
+        'USER': 'root',
+        'PASSWORD': 'anzer!123',
     }
 }
 
