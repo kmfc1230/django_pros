@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+{% if request.session.name %}
+    <div>
+        欢迎  {{ request.session.name }}
+    </div>
+    <div>
+        <a href="/user/logout">退出登录</a>
+    </div>
+    <div>
+        <a href="/note/list_note">进入我的笔记</a>
+    </div>
+{% else %}
+    {% if request.COOKIES.name %}
+        <div>
+            欢迎光临  {{ request.COOKIES.name }}
+        </div>
+        <div>
+            <a href="/user/logout">退出登录</a>
+        </div>
+        <div>
+            <a href="/note/list_note">进入我的笔记</a>
+        </div>
+    {% else %}
+        <div>
+            <a href="/user/login">登录</a>
+            <a href="/user/reg">注册</a>
+        </div>
+    {% endif %}
+{% endif %}
+</body>
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+</html>

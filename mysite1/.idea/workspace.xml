@@ -2,51 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df09b466-9bad-43fa-a8e6-d8f209c8e9fd" name="Changes" comment="  1">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/migrations/0002_auto_20211117_1612.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/migrations/0003_auto_20211117_1613.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/migrations/0004_book_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/migrations/0005_auto_20211117_1615.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/migrations/0006_auto_20211117_1615.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/migrations/0007_book_is_active.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sport/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookstore/all_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookstore/update_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/home/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/home/templates/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/home/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/home/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/migrations/0002_note_is_active.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/templates/mynote/add_note.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/templates/mynote/list_note.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/templates/mynote/update_note.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/mynote/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../note/user/migrations/0003_auto_20211119_1526.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f1fe6a3e-ebc3-4989-b677-45b12eecbcaf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f1fe6a3e-ebc3-4989-b677-45b12eecbcaf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtm/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mtm/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otm/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/otm/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/otm/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oto/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/oto/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sport/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sport/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note/note/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../note/note/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note/note/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../note/note/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../note/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note/user/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../note/user/templates/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note/user/templates/user/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../note/user/templates/user/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../note/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../note/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/.idea/otm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/otm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/otm/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/otm/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otm/otm/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/.idea/tedu_note.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/.idea/tedu_note.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/tedu_note/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/tedu_note/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/tedu_note/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/tedu_note/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/user/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/user/templates/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/user/templates/user/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/user/templates/user/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tedu_note/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tedu_note/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +78,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -138,7 +157,9 @@
       <workItem from="1636800398331" duration="9939000" />
       <workItem from="1636966483966" duration="5203000" />
       <workItem from="1637127882506" duration="1818000" />
-      <workItem from="1637129789617" duration="12747000" />
+      <workItem from="1637129789617" duration="23035000" />
+      <workItem from="1637291600912" duration="6212000" />
+      <workItem from="1637319580040" duration="1989000" />
     </task>
     <task id="LOCAL-00001" summary="  1">
       <created>1636802208027</created>

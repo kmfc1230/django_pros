@@ -38,5 +38,11 @@ urlpatterns = [
     path('music/', include('music.urls')),
     path('sport/', include('sport.urls')),
     path('news/', include('news.urls')),
-    path('bookstore/', include('bookstore.urls'))
+    path('otm/', include('otm.urls')),
+    path('bookstore/', include('bookstore.urls')),
+    path('set_cookie', views.set_cookie),
+    path('get_cookie', views.get_cookie),
+    path('set_session', views.set_session),
+    path('get_session', views.get_session),
+
 ]
