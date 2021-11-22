@@ -1,4 +1,3 @@
-
 # mysql settings
 MYSQL_ENGINE = 'django.db.backends.mysql'
 MYSQL_NAME = 'HelloDjango'
