@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'hs_note.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': local_settings.MYSQL_ENGINE,
