@@ -1,1 +1,2 @@
 ./hs_note/local_settings.py
+*.pyc
