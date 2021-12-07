@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id='app'>
+        <h1>{{counter}}</h1>
+        <!-- v-on:click 简写 @click -->
+        <button @click='add'>+</button>
+        <button @click='sub'>-</button>
+    </div>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                msg: 'hello',
+                counter: 0
+            },
+            methods: {
+                add() {
+                    this.counter++
+                },
+                sub() {
+                    this.counter--
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
