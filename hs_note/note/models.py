@@ -1,10 +1,13 @@
 from django.db import models
 
-
 # Create your models here.
+from user.models import User
 
-class User(models.Model):
-    username = models.CharField('用户名', max_length=32, unique=True)
-    password = models.CharField('密码', max_length=32)
+
+class Note(models.Model):
+    title = models.CharField('标题', max_length=64)
+    content = models.TextField('内容')
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     create_time = models.DateTimeField('创建时间', auto_now_add=True)
     update_time = models.DateTimeField('更新时间', auto_now=True)
+    is_active = models.BooleanField(default=True)

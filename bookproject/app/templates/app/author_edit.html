@@ -1,0 +1,23 @@
+{% extends "app/base.html" %}
+{% block bar %}
+    <h2>作者管理页面</h2>
+    <div>
+        <h3>编辑作者</h3>
+    </div>
+    <form>
+        <p>
+            <span>作者 </span><input type="text" name="book_name">
+        </p>
+        <p>
+            <span>书名 </span>
+            <select name="books" id="">
+                {% for book in book_list %}
+                    <option value="{{ book.id }}">{{ book.name }}</option>
+                {% endfor %}
+
+            </select>
+        </p>
+
+    </form>
+
+{% endblock %}

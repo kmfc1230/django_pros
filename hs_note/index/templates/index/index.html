@@ -4,12 +4,12 @@
 
 {% if request.session.username %}
     <p>
-        欢迎{{ request.session.username }} <a href="">我的笔记</a> <a href="/user/logout/">退出登录</a>
+        欢迎{{ request.session.username }} <a href="/note/list/">我的笔记</a> <a href="/user/logout/">退出登录</a>
     </p>
 
 {% elif request.COOKIES.username %}
     <p>
-        欢迎{{ request.COOKIES.username  }} <a href="">我的笔记</a> <a href="/user/logout/">退出登录</a>
+        欢迎{{ request.COOKIES.username  }} <a href="/note/list/">我的笔记</a> <a href="/user/logout/">退出登录</a>
     </p>
 {% else %}
     <p>

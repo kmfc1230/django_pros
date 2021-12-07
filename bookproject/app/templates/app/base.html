@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <title>图书管理系统</title>
+</head>
+<body>
+{#标题栏#}
+<h1 class="text-center">图书管理系统</h1>
+{#导航栏#}
+{% include "app/nav.html" %}
+<div>
+    <div class="col-md-1"></div>
+    <div class="col-md-2">
+        {#侧边栏#}
+        {% include "app/nav_left.html" %}
+    </div>
+    <div class="col-md-8">
+        {#分页名称#}
+        {% block bar %}
+
+        {% endblock %}
+        {#内容#}
+        {% block main %}
+
+        {% endblock %}
+
+        {% include "app/nav_page.html" %}
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

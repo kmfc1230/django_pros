@@ -1,0 +1,20 @@
+{% extends "app/base.html" %}
+{% block bar %}
+    <h2>出版社管理页面</h2>
+    <div>
+        <h3>添加出版社</h3>
+    </div>
+    <form>
+        <p>
+            <span>出版社名称 </span><input type="text" name="publiser_name">
+        </p>
+        <span>出版社地址 </span><input type="text" name="publiser_address">
+
+        </p>
+        <p>
+            <input type="submit" class="btn btn-primary" value="提交">
+        </p>
+
+    </form>
+
+{% endblock %}

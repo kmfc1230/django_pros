@@ -1,0 +1,40 @@
+{% extends "app/base.html" %}
+{% block bar %}
+    <h2>出版社管理页面</h2>
+    <div>
+        <h3>出版社列表</h3>
+    </div>
+    <div>
+        <form>
+            <input type="text" name="book_search" id="pub_search" placeholder="search for ...">
+            <input type="submit" class="btn btn-primary" value="搜索">
+            <a class="btn btn-primary" href="/app/pub/add">新增出版社</a>
+        </form>
+    </div>
+    <div class="container-fluid">
+        <table class="table table-striped table-default table-bordered">
+            <tr>
+                <th>序号</th>
+                <th>出版社ID</th>
+                <th>出版社名称</th>
+                <th>地址</th>
+                <th>操作</th>
+            </tr>
+            <tr>
+                {% for pub in pub_list %}
+                    <td>forloop.counter</td>
+                    <td>pub.id</td>
+                    <td>pub.name</td>
+                    <td>pub.address</td>
+                    <td>
+                        <a href="/app/pub/edit/id={{ pub.id }}">修改</a>
+                        <a href="/app/pub/del/id={{ pub.id }}">删除</a>
+                    </td>
+
+                {% endfor %}
+
+            </tr>
+        </table>
+
+    </div>
+{% endblock %}
